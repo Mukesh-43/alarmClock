@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background-image: url("./alarm clock.jpg");
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+	overflow: hidden;
+}
+
+#container{
+	margin: 20em 2.5em 10em 75em;
+	padding: 5em;
+	text-align: center;
+	border: 2px solid white;
+	width: 445px;
+	height: 320px;
+	border-radius: 50%;
+	background: white;
+}
+
+#timesetter{
+	display: flex;
+	justify-content: center;
+	margin: 2em;
+}
+
+.disable{
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+#hours,#minutes,#ampm{
+	width: 120px;
+	height: 40px;
+	padding: 5px;
+	font-size: 1.5em;
+	margin: 0 1em;
+}
+
+h1{
+	font-family: cursive;
+	font-size: 3em;
+	border: 2px solid white;
+	background-color: #BDA02F;
+	color: white;
+	margin-top: -10px;
+	border-radius: 10px;
+
+}
+
+button{
+	width: 250px;
+	font-size: 1.5em;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px 50px;
+	background-color: #BDA02F;
+	color: white; 
+	border: 0;
+}
+
+img{
+	padding: 0px;
+	margin-top:-60px;
+}
